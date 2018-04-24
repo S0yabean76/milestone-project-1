@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.body{
+    font-family: "Roboto", sans-serif;
+}
+
 
 /*------------------------------------------------------colours*/
 
@@ -18,7 +23,43 @@
     background-color: #010101;
 }
 
+.background-color-footer{
+    background-color: #1a1a1a;
+}
+/*----------------------------------------------------------Home*/
+
+/*snippet taken from bootstrap 'Whiskey Drop" exercise code and modified*/
+
+.main-container {
+    height: 80vh;
+    background: url("../images/3ladiessitting.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.jumbotron hr{
+    width: 50px;
+}
+
+.lead {
+    color: white ;
+}
 /*------------------------------------------------------Menu*/
+
+
 
 .menu-item {
     height: 150px;
@@ -65,3 +106,6 @@
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+/*------------------------------------------------------Footer*/
+
