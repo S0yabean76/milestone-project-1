@@ -26,6 +26,10 @@
 .background-color-footer{
     background-color: #1a1a1a;
 }
+
+.charity-text{
+    background-color: #333333;
+}
 /*----------------------------------------------------------Home*/
 
 /*snippet taken from bootstrap 'Whiskey Drop" exercise code and modified*/
@@ -108,4 +112,38 @@
 }
 
 /*------------------------------------------------------Footer*/
+.footer{
+    min-height: 120px;
+}
+
+.charity-logo img{
+    padding-left: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.charity-text{
+    text-align: center;
+    color: white;
+    height: 120px;
+    padding-top: 40px;
+}
+
+.charity-social {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.charity-social li a i {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #E79132; 
+    border-radius: 50%;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
