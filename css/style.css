@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.body{
+.body {
     font-family: "Roboto", sans-serif;
 }
 
@@ -23,13 +23,14 @@
     background-color: #010101;
 }
 
-.background-color-footer{
+.background-color-footer {
     background-color: #1a1a1a;
 }
 
-.charity-text{
+.charity-text {
     background-color: #333333;
 }
+
 /*----------------------------------------------------------Home*/
 
 /*snippet taken from bootstrap 'Whiskey Drop" exercise code and modified*/
@@ -50,20 +51,19 @@
     background-color: transparent;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     color: white;
 }
 
-.jumbotron hr{
+.jumbotron hr {
     width: 50px;
 }
 
 .lead {
-    color: white ;
+    color: white;
 }
+
 /*------------------------------------------------------Menu*/
-
-
 
 .menu-item {
     height: 150px;
@@ -112,17 +112,18 @@
 }
 
 /*------------------------------------------------------Footer*/
-.footer{
+
+.footer {
     min-height: 120px;
 }
 
-.charity-logo img{
+.charity-logo img {
     padding-left: 60px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.charity-text{
+.charity-text {
     text-align: center;
     color: white;
     height: 130px;
@@ -140,10 +141,38 @@
     font-size: 30px;
     text-align: center;
     color: white;
-    background-color: #E79132; 
+    background-color: #E79132;
     border-radius: 50%;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+/*------------------------------------------------------------Meet Us*/
+
+.info-container {
+    height: auto;
+}
+
+.info-section-why{
+    height:700px;
+}
+
+.why-image-container{
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.why-image-container img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
 
