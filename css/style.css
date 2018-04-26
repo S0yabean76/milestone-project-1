@@ -31,9 +31,18 @@
     background-color: #333333;
 }
 
-.background-color-who{
+.background-color-who {
     background-color: #E5291E;
 }
+
+.background-color-why {
+    background-color: #E79132;
+}
+
+.background-color-how {
+    background-color: #E5291E;
+}
+
 /*----------------------------------------------------------Home*/
 
 /*snippet taken from bootstrap 'Whiskey Drop" exercise code and modified*/
@@ -157,19 +166,20 @@
     height: auto;
 }
 
-.info-section-who{
-    height:500px;
+.info-section-who {
+    height: auto;
 }
 
-.who-image-container{
-    margin-top: 50px;
-    margin-left: 200px;
+.who-image-container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
     width: 400px;
     height: 400px;
     float: left;
     overflow: hidden;
     border-radius: 50%;
-     border: 5px outset #333333;
+    border: 5px outset #333333;
 }
 
 .who-image-container img {
@@ -178,13 +188,13 @@
     width: 400px;
 }
 
-.who-text-container{
+.who-text-container {
     position: relative;
-    width: 300px;
+    width: 500px;
     height: auto;
     float: left;
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 10%;
+    margin-left: 10%;
     text-align: justify;
     background-color: #1a1a1a;
     color: white;
@@ -196,4 +206,74 @@ li {
     list-style-type: none;
 }
 
+.info-section-why {
+    height: auto;
+}
 
+.why-text-container {
+    position: relative;
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: justify;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    border: 5px outset #333333;
+}
+
+.why-image-container {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px outset #333333;
+}
+
+.why-image-container img {
+    margin: 0 auto;
+    height: 100%;
+    width: 400px;
+}
+
+.info-section-how {
+    height: auto;
+}
+
+.how-image-container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px outset #333333;
+}
+
+.how-image-container img {
+    margin: 0 auto;
+    height: 100%;
+    width: 400px;
+}
+
+.how-text-container {
+    position: relative;
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    border: 5px outset #333333;
+}
