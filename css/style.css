@@ -158,21 +158,32 @@
     height:700px;
 }
 
-.why-image-container{
+.who-image-container{
     margin-top: 200px;
     margin-left: 300px;
     width: 400px;
     height: 400px;
-    position: relative;
+    float: left;
     overflow: hidden;
     border-radius: 50%;
 }
 
-.why-image-container img {
-    display: inline;
+.who-image-container img {
     margin: 0 auto;
     height: 100%;
-    width: auto;
+    width: 400px;
+}
+
+.who-text-container{
+    position: relative;
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-top: 300px;
+}
+
+li {
+    list-style-type: none;
 }
 
 
