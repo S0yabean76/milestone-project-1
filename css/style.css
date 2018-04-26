@@ -31,6 +31,9 @@
     background-color: #333333;
 }
 
+.background-color-who{
+    background-color: #E5291E;
+}
 /*----------------------------------------------------------Home*/
 
 /*snippet taken from bootstrap 'Whiskey Drop" exercise code and modified*/
@@ -154,18 +157,19 @@
     height: auto;
 }
 
-.info-section-why{
-    height:700px;
+.info-section-who{
+    height:500px;
 }
 
 .who-image-container{
-    margin-top: 200px;
-    margin-left: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
     width: 400px;
     height: 400px;
     float: left;
     overflow: hidden;
     border-radius: 50%;
+     border: 5px outset #333333;
 }
 
 .who-image-container img {
@@ -179,7 +183,13 @@
     width: 300px;
     height: auto;
     float: left;
-    margin-top: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: justify;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    border: 5px outset #333333;
 }
 
 li {
