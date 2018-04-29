@@ -31,17 +31,18 @@
     background-color: #333333;
 }
 
-.background-color-who {
+.background-color-red {
     background-color: #E5291E;
 }
 
-.background-color-why {
+.background-color-orange {
     background-color: #E79132;
 }
 
-.background-color-how {
-    background-color: #E5291E;
+.background-color-form{
+    background-color: #333333;
 }
+
 
 /*----------------------------------------------------------Home*/
 
@@ -300,3 +301,18 @@ li {
     margin-left: 40%;
     font-size: 150px;
 }
+
+/*-----------------------------------------------Inspire*/
+
+.form-container{
+    height: 80vh;
+}
+
+.form-text{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
