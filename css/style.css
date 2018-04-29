@@ -188,7 +188,7 @@
     width: 400px;
 }
 
-.who-text-container {
+.right-align-text-container {
     position: relative;
     width: 500px;
     height: auto;
@@ -210,7 +210,7 @@ li {
     height: auto;
 }
 
-.why-text-container {
+.left-align-text-container {
     position: relative;
     width: 500px;
     height: auto;
@@ -276,4 +276,27 @@ li {
     color: white;
     padding: 15px;
     border: 5px outset #333333;
+}
+
+/*------------------------------------------------------------Listen*/
+
+.play-image-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px outset #333333;
+    background-color: black;
+}
+
+.play-icon{
+    color: white;
+    z-index: 2;
+    margin-top: 30%;
+    margin-left: 40%;
+    font-size: 150px;
 }
