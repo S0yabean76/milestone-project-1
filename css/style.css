@@ -58,13 +58,15 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
 }
 
 .jumbotron {
     background-color: transparent;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: "Roboto", sans-serif;
 }
 
 .jumbotron h1 {
@@ -346,4 +348,10 @@ li {
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #333333;
+}
+
+/*--------------------------------------------Media Queries------*/
+@media (min-width: 576px){
+    
+   
 }
