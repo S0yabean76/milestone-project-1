@@ -154,23 +154,28 @@
 
 .charity-social ul {
     text-align: center;
-    min-height: 100px;
     width: 80%;
     margin: 5% auto;
 }
 
-.charity-social li {
-    margin: auto;
+.fa-fw{
+    width: 1.75em
 }
 
+
 .charity-social li a i {
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 2em;
-    text-align: center;
+    vertical-align: middle;
     color: white;
     background-color: #E79132;
     border-radius: 50%;
+
 }
+
+
+
 
 /*------------------------------------------------------------Meet Us*/
 
@@ -262,6 +267,7 @@
     width: 50%;
     margin-left: 25%;
     text-align: center;
+    font-size: 1em;
 }
 
 .form-header {
@@ -283,6 +289,24 @@
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #333333;
+}
+
+/*-------------------------------------------------------hover.css-----*/
+
+.hvr-fade:hover {
+    background: #333333;
+}
+
+.fa-facebook:hover {
+    background: #333333;
+}
+
+.fa-twitter:hover {
+    background: #333333;
+}
+
+.fa-youtube:hover {
+    background: #333333;
 }
 
 /*--------------------------------------------Media Queries------*/
