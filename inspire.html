@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 </head>
 
 <body>
 
-    <section class="container-fluid background-color-form-container form-container">
+    <div class="container-fluid background-color-form-container form-container">
         <div class="row">
             <div class="form-box background-color-form-box">
                 <div class="form-text">
@@ -22,14 +21,14 @@
                 <div class="center-form ">
                     <form>
                         <input type="text" name="name " class="form-control" id="fullname" placeholder="Name" required/>
-                        <input type="text" name="emailaddress " class="form-control " id="emailaddress" placeholder="Email">
-                        <input rows="5" name="suggestiontext" class="form-control" id="suggestiontext" placeholder="Lovely comments!" required/>
+                        <input type="text" name="emailaddress " class="form-control " id="emailaddress" placeholder="Email (optional)">
+                        <textarea name="suggestiontext" class="form-control" id="suggestiontext" placeholder="Lovely comments!" required/></textarea>
                         <button type="submit" class="btn btn-success center-block ">Get in touch!</button>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <nav class="container-fluid">
         <div class="row heading">
@@ -48,12 +47,9 @@
                 </li>
             </ul>
         </div>
-
     </nav>
 
-
-
-   <footer class="container-fluid">
+    <footer class="container-fluid">
         <div class="row footer background-color-footer">
             <div class="col-sm-3 charity-logo">
                 <img src="images/su2c_logo.png"></img>
