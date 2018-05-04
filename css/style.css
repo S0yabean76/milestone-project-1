@@ -358,6 +358,37 @@
 
 @media (max-width: 768px) {
 
+    /*---------meet us------*/
+    .who-image-container {
+        margin: 5% auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px outset #333333;
+        background-image: url("/images/3ladiessittingcropped.jpg");
+        background-size: cover;
+    }
+
+    .why-image-container {
+        margin: 5% auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px outset #333333;
+        background-image: url("/images/Abbycropped.jpg");
+        background-size: cover;
+    }
+
+    .how-image-container {
+        margin: 5% auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px outset #333333;
+        background-image: url("/images/2ladiescropped.jpg");
+        background-size: cover;
+    }
+
     /*---------listen------*/
     .play-image-container {
         margin: 5% auto;
