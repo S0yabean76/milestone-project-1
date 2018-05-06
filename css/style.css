@@ -188,7 +188,7 @@
     height: 400px;
     border-radius: 50%;
     border: 5px outset #333333;
-    background-image: url("/images/3ladiessittingcropped.jpg");
+    background-image: url("../images/3ladiessittingcropped.jpg");
     background-size: cover;
 }
 
@@ -209,7 +209,7 @@
     height: 400px;
     border-radius: 50%;
     border: 5px outset #333333;
-    background-image: url("/images/Abbycropped.jpg");
+    background-image: url("../images/Abbycropped.jpg");
     background-size: cover;
 }
 
@@ -219,7 +219,7 @@
     height: 400px;
     border-radius: 50%;
     border: 5px outset #333333;
-    background-image: url("/images/2ladiescropped.jpg");
+    background-image: url("../images/2ladiescropped.jpg");
     background-size: cover;
 }
 
